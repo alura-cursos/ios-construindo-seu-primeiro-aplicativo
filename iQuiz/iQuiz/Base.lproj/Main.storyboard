@@ -63,37 +63,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Título da Questão" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L3s-QA-LsT">
-                                <rect key="frame" x="69" y="203" width="255" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Título da Questão" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L3s-QA-LsT">
+                                <rect key="frame" x="64" y="215" width="265" height="39"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q35-zA-bMv">
-                                <rect key="frame" x="126" y="315" width="141" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q35-zA-bMv">
+                                <rect key="frame" x="64" y="326" width="265" height="62"/>
                                 <color key="backgroundColor" red="0.4549019608" green="0.1960784314" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="ECB-9o-AqM"/>
+                                </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Resposta 01">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ae-TG-UYX">
-                                <rect key="frame" x="125" y="382" width="144" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ae-TG-UYX">
+                                <rect key="frame" x="64" y="420" width="265" height="62"/>
                                 <color key="backgroundColor" red="0.4549019608" green="0.1960784314" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="VFn-oY-adI"/>
+                                </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Resposta 02">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ek1-WA-LWA">
-                                <rect key="frame" x="124" y="447" width="145" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ek1-WA-LWA">
+                                <rect key="frame" x="64" y="514" width="265" height="62"/>
                                 <color key="backgroundColor" red="0.4549019608" green="0.1960784314" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="Bwo-8s-Rys"/>
+                                </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Resposta 03">
@@ -103,8 +108,25 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kyE-Nd-zI7"/>
                         <color key="backgroundColor" red="0.32156862749999998" green="0.1176470588" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0ae-TG-UYX" firstAttribute="leading" secondItem="kyE-Nd-zI7" secondAttribute="leading" constant="64" id="0u8-a6-3aD"/>
+                            <constraint firstItem="kyE-Nd-zI7" firstAttribute="trailing" secondItem="q35-zA-bMv" secondAttribute="trailing" constant="64" id="2Mg-af-Qxx"/>
+                            <constraint firstItem="q35-zA-bMv" firstAttribute="top" secondItem="L3s-QA-LsT" secondAttribute="bottom" constant="72" id="33h-AY-lgn"/>
+                            <constraint firstItem="ek1-WA-LWA" firstAttribute="leading" secondItem="kyE-Nd-zI7" secondAttribute="leading" constant="64" id="3Hi-cP-jhW"/>
+                            <constraint firstItem="q35-zA-bMv" firstAttribute="leading" secondItem="kyE-Nd-zI7" secondAttribute="leading" constant="64" id="DC8-E2-ixw"/>
+                            <constraint firstItem="ek1-WA-LWA" firstAttribute="top" secondItem="0ae-TG-UYX" secondAttribute="bottom" constant="32" id="GRt-XB-ZOj"/>
+                            <constraint firstItem="kyE-Nd-zI7" firstAttribute="trailing" secondItem="0ae-TG-UYX" secondAttribute="trailing" constant="64" id="UdG-P4-hGu"/>
+                            <constraint firstItem="L3s-QA-LsT" firstAttribute="leading" secondItem="kyE-Nd-zI7" secondAttribute="leading" constant="64" id="XcZ-n0-4bW"/>
+                            <constraint firstItem="0ae-TG-UYX" firstAttribute="top" secondItem="q35-zA-bMv" secondAttribute="bottom" constant="32" id="afR-jM-u4c"/>
+                            <constraint firstItem="kyE-Nd-zI7" firstAttribute="trailing" secondItem="ek1-WA-LWA" secondAttribute="trailing" constant="64" id="emY-Nb-YBW"/>
+                            <constraint firstItem="L3s-QA-LsT" firstAttribute="top" secondItem="kyE-Nd-zI7" secondAttribute="top" constant="112" id="m27-S4-hkC"/>
+                            <constraint firstItem="kyE-Nd-zI7" firstAttribute="trailing" secondItem="L3s-QA-LsT" secondAttribute="trailing" constant="64" id="qq6-Rg-eHP"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="o37-um-cTZ"/>
+                    <connections>
+                        <outlet property="tituloQuestaoLabel" destination="L3s-QA-LsT" id="hhg-QH-bi6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gtm-16-rgZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
