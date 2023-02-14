@@ -144,6 +144,67 @@
             </objects>
             <point key="canvasLocation" x="1943" y="-27"/>
         </scene>
+        <!--Desempenho View Controller-->
+        <scene sceneID="YHh-NL-81m">
+            <objects>
+                <viewController id="oI5-YF-CfC" customClass="DesempenhoViewController" customModule="iQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="na6-Ru-caX">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Você finalizou o iQuiz!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySF-Bb-Z2h">
+                                <rect key="frame" x="64" y="171" width="265" height="76.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Você acertou 2 de 10 questões" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B97-d9-JQd">
+                                <rect key="frame" x="64" y="319.66666666666669" width="265" height="76.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Percentual final: 20%" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6MQ-wp-sh6">
+                                <rect key="frame" x="64" y="468.33333333333331" width="265" height="31.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQA-Xu-K4p">
+                                <rect key="frame" x="64" y="571.66666666666663" width="265" height="62"/>
+                                <color key="backgroundColor" red="0.4549019608" green="0.1960784314" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="sBV-PA-0G3"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Reiniciar Quiz">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Uc3-Fx-wWE"/>
+                        <color key="backgroundColor" red="0.32156862749999998" green="0.1176470588" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Uc3-Fx-wWE" firstAttribute="trailing" secondItem="ySF-Bb-Z2h" secondAttribute="trailing" constant="64" id="4mP-pt-w70"/>
+                            <constraint firstItem="6MQ-wp-sh6" firstAttribute="leading" secondItem="Uc3-Fx-wWE" secondAttribute="leading" constant="64" id="5h9-TU-fIB"/>
+                            <constraint firstItem="ySF-Bb-Z2h" firstAttribute="top" secondItem="Uc3-Fx-wWE" secondAttribute="top" constant="112" id="7ep-5m-IQ7"/>
+                            <constraint firstItem="Uc3-Fx-wWE" firstAttribute="trailing" secondItem="6MQ-wp-sh6" secondAttribute="trailing" constant="64" id="8dA-VZ-dHx"/>
+                            <constraint firstItem="6MQ-wp-sh6" firstAttribute="top" secondItem="B97-d9-JQd" secondAttribute="bottom" constant="72" id="DKi-pq-pTE"/>
+                            <constraint firstItem="B97-d9-JQd" firstAttribute="leading" secondItem="na6-Ru-caX" secondAttribute="leading" constant="64" id="Ijq-Th-dCr"/>
+                            <constraint firstAttribute="trailing" secondItem="B97-d9-JQd" secondAttribute="trailing" constant="64" id="cad-DB-DlL"/>
+                            <constraint firstItem="B97-d9-JQd" firstAttribute="top" secondItem="ySF-Bb-Z2h" secondAttribute="bottom" constant="72" id="cwC-bo-b0T"/>
+                            <constraint firstItem="Uc3-Fx-wWE" firstAttribute="trailing" secondItem="PQA-Xu-K4p" secondAttribute="trailing" constant="64" id="oe4-Fu-HNw"/>
+                            <constraint firstItem="PQA-Xu-K4p" firstAttribute="top" secondItem="6MQ-wp-sh6" secondAttribute="bottom" constant="72" id="qq3-JD-pIq"/>
+                            <constraint firstItem="PQA-Xu-K4p" firstAttribute="leading" secondItem="Uc3-Fx-wWE" secondAttribute="leading" constant="64" id="rgr-ll-ULM"/>
+                            <constraint firstItem="ySF-Bb-Z2h" firstAttribute="leading" secondItem="Uc3-Fx-wWE" secondAttribute="leading" constant="64" id="va6-SA-EEF"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wsj-le-Zux" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2718.320610687023" y="-27.464788732394368"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Rvm-f6-w3k">
             <objects>
