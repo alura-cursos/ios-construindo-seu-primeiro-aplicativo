@@ -62,18 +62,34 @@
 		480EA35F299BCE6F0065BE95 /* iQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				480EA37C299BEA790065BE95 /* Modelo */,
+				480EA37B299BEA5C0065BE95 /* ViewController */,
 				480EA360299BCE6F0065BE95 /* AppDelegate.swift */,
 				480EA362299BCE6F0065BE95 /* SceneDelegate.swift */,
-				480EA364299BCE6F0065BE95 /* ViewController.swift */,
 				480EA366299BCE6F0065BE95 /* Main.storyboard */,
 				480EA369299BCE710065BE95 /* Assets.xcassets */,
 				480EA36B299BCE710065BE95 /* LaunchScreen.storyboard */,
 				480EA36E299BCE710065BE95 /* Info.plist */,
-				480EA374299BDA000065BE95 /* QuestaoViewController.swift */,
-				480EA376299BE0560065BE95 /* Questao.swift */,
-				480EA379299BE6CD0065BE95 /* DesempenhoViewController.swift */,
 			);
 			path = iQuiz;
+			sourceTree = "<group>";
+		};
+		480EA37B299BEA5C0065BE95 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				480EA364299BCE6F0065BE95 /* ViewController.swift */,
+				480EA374299BDA000065BE95 /* QuestaoViewController.swift */,
+				480EA379299BE6CD0065BE95 /* DesempenhoViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		480EA37C299BEA790065BE95 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				480EA376299BE0560065BE95 /* Questao.swift */,
+			);
+			path = Modelo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
