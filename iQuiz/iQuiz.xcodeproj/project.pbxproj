@@ -16,6 +16,7 @@
 		480EA375299BDA000065BE95 /* QuestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480EA374299BDA000065BE95 /* QuestaoViewController.swift */; };
 		480EA377299BE0560065BE95 /* Questao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480EA376299BE0560065BE95 /* Questao.swift */; };
 		480EA37A299BE6CD0065BE95 /* DesempenhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480EA379299BE6CD0065BE95 /* DesempenhoViewController.swift */; };
+		480EA37F299C05D60065BE95 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480EA37E299C05D60065BE95 /* UIColor+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		480EA374299BDA000065BE95 /* QuestaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoViewController.swift; sourceTree = "<group>"; };
 		480EA376299BE0560065BE95 /* Questao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questao.swift; sourceTree = "<group>"; };
 		480EA379299BE6CD0065BE95 /* DesempenhoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesempenhoViewController.swift; sourceTree = "<group>"; };
+		480EA37E299C05D60065BE95 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		480EA35F299BCE6F0065BE95 /* iQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				480EA37D299C05CC0065BE95 /* Extensões */,
 				480EA37C299BEA790065BE95 /* Modelo */,
 				480EA37B299BEA5C0065BE95 /* ViewController */,
 				480EA360299BCE6F0065BE95 /* AppDelegate.swift */,
@@ -90,6 +93,15 @@
 				480EA376299BE0560065BE95 /* Questao.swift */,
 			);
 			path = Modelo;
+			sourceTree = "<group>";
+		};
+		480EA37D299C05CC0065BE95 /* Extensões */ = {
+			isa = PBXGroup;
+			children = (
+				480EA37E299C05D60065BE95 /* UIColor+.swift */,
+			);
+			name = "Extensões";
+			path = "Extensões";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +181,7 @@
 				480EA377299BE0560065BE95 /* Questao.swift in Sources */,
 				480EA37A299BE6CD0065BE95 /* DesempenhoViewController.swift in Sources */,
 				480EA375299BDA000065BE95 /* QuestaoViewController.swift in Sources */,
+				480EA37F299C05D60065BE95 /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

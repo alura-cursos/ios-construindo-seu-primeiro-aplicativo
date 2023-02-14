@@ -31,7 +31,7 @@ class DesempenhoViewController: UIViewController {
         guard let pontuacao = pontuacao else { return }
         resultadoLabel.text = "Você acertou \(pontuacao) de \(questoes.count) questões"
         let percentual = (pontuacao * 100) / questoes.count
-        percentualLabel.text = "Percentual final: \(pontuacao)%"
+        percentualLabel.text = "Percentual final: \(percentual)%"
     }
 
     /*
