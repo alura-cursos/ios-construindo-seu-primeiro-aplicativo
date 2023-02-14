@@ -138,6 +138,7 @@
                         <outletCollection property="botoesResposta" destination="q35-zA-bMv" collectionClass="NSMutableArray" id="Oc8-IB-qCe"/>
                         <outletCollection property="botoesResposta" destination="0ae-TG-UYX" collectionClass="NSMutableArray" id="AOQ-lh-TYy"/>
                         <outletCollection property="botoesResposta" destination="ek1-WA-LWA" collectionClass="NSMutableArray" id="whf-Jg-gg3"/>
+                        <segue destination="oI5-YF-CfC" kind="show" identifier="irParaTelaDesempenho" id="1OB-9I-rrM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gtm-16-rgZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -149,7 +150,7 @@
             <objects>
                 <viewController id="oI5-YF-CfC" customClass="DesempenhoViewController" customModule="iQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="na6-Ru-caX">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Você finalizou o iQuiz!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySF-Bb-Z2h">
@@ -203,6 +204,7 @@
                             <constraint firstItem="ySF-Bb-Z2h" firstAttribute="leading" secondItem="Uc3-Fx-wWE" secondAttribute="leading" constant="64" id="va6-SA-EEF"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="gd6-NZ-k6h"/>
                     <connections>
                         <outlet property="botaoReiniciarQuiz" destination="PQA-Xu-K4p" id="zwV-pe-ruz"/>
                         <outlet property="percentualLabel" destination="6MQ-wp-sh6" id="WYP-qI-CBQ"/>
@@ -233,6 +235,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="1OB-9I-rrM"/>
         <segue reference="I0h-gT-Wkf"/>
     </inferredMetricsTieBreakers>
     <resources>
